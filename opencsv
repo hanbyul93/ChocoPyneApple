@@ -1,15 +1,13 @@
 2022-06-09
 
 def opencsv(filename):
-    f = open(filename, 'r')
-    reader = csv.reader(f)
-    output []
-    for i in reader:
-        output.append(i)
-        return output
-        
-
-
+	f= open(filename, 'r')
+	reader = csv.reader(f)
+	output = []
+	for i in reader:
+		output.append(i)
+	return output
+	
 --------------------------------------------------
 
 def opencsv(filename):
