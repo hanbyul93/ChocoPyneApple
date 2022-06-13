@@ -1,0 +1,24 @@
+### 숫자만 골라 실수형으로 ##
+
+>>> i = [i = ['123!!', '151,767', '11,093', '27,394', '', '!!!$%']
+### i에 특수 문자와 빈 문자열로 된 원소를 추가합니다.
+  for j in i:
+try:
+		i[i.index(j)] = float(re.sub(',', '', j)) # 모든 j를 실수형으로 바꿔봅니다.
+except:                                       # 오류가 발생하면
+  pass                                        # pass를 실행해 넘어갑니다.
+  
+>>> i 
+
+
+서울시 poplist
+
+>>> import os,re
+>>> import usecsv
+>>> os.chdir(r'C:----')
+>>> total = usecsv.opencsv('popSeoul.csv')
+
+>>> for i in total [:5]:
+    print(i)
+    
+ 
